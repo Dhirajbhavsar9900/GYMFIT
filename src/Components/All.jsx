@@ -37,9 +37,10 @@ const All = ()=>{
                     const { id, name, gifUrl } = post;
                     return (
                         
-                        <div className=' border ' key={id}>
-                            <h2>{name}</h2>
+                        <div className=' border w-[400px] ' key={id}>
+                           
                             <img  src={gifUrl} alt={name} className=" h-[400px] w-[430px] " />
+                            <h2 className=" text-center p-4 font-seri bg-slate-600 text-white font-bold rounded">{name}</h2>
                         </div>
                         
                     );
